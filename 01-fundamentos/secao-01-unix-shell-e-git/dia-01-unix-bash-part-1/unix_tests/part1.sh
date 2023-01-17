@@ -1,37 +1,75 @@
-  627  ls
-  628  mkdir unix_tests
-  629  ls
-  630  cd unix_tests
-  631  touch trybe.txt
-  632  ls
-  633  cp trybe.txt trybe_backup.txt
-  634  ls
-  635  mv trybe.txt trybe-renomeado.txt
-  636  ls
-  637  cd ..
-  638  ls
-  639  cd unix_tests
-  640  ls
-  641  mkdir backup
-  642  ls
-  643  mv trybe_backup.txt backup/
-  644  ls
-  645  cd backup
-  646  ls
-  647  cd ..
-  648  mkdir backup2
-  649  ls
-  650  mv ./backup/trybe_backup.txt backup2/
-  651  cd backup2
-  652  ls
-  653  cd ..
-  654  ls
-  655  rmdir backup
-  656  ls
-  657  mv backup2 backup/
-  658  ls
-  659  pwd
-  660  ls -l
-  661  rm -rf backup
-  662  ls
-  663  clear
+# Exercício 1
+mkdir unix_tests
+ls
+cd unix_tests
+
+# Exercício 2
+touch trybe.txt
+ls
+
+# Exercício 3
+cp trybe.txt trybe_backup.txt
+ls
+
+# Exercício 4
+mv trybe.txt trybe-renomeado.txt
+ls
+cd ..
+ls
+cd unix_tests
+ls
+
+# Exercício 5
+mkdir backup
+ls
+
+# Exercício 6
+mv trybe_backup.txt backup/
+ls
+cd backup
+ls
+
+# Exercício 7
+cd ..
+mkdir backup2
+ls
+
+# Exercício 8
+mv ./backup/trybe_backup.txt backup2/
+cd backup2
+ls
+cd ..
+ls
+
+# Exercício 9
+rmdir backup
+ls
+
+# Exercício 10
+mv backup2 backup/
+ls
+
+# Exercício 11
+pwd
+ls -l
+
+# Exercício 12
+rm -rf backup
+ls
+
+# Exercício 13
+clear
+
+# Exercício 14
+touch skills.txt
+
+# Exercício 15
+head -5 skills.txt
+
+# Exercício 16
+tail -4 skills.txt
+
+# Exercício 17
+rm *.txt
+
+

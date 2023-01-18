@@ -1,4 +1,4 @@
-Exercícios - Terminal Bash
+<strong>Exercícios - Terminal Bash</strong>
 
 Dica: Usar comando touch para criação de arquivos vazios.
 
@@ -44,4 +44,40 @@ SQL
 
 16 - Mostrar as 4 últimas linhas do arquivo skills.txt
 
-17 - Apagar todos os arquivos que terminem em .txt
+17 - Apagar todos os arquivos que terminem em .txt <br><br><br>
+
+
+<strong>Exercícios de manipulação e busca</strong>
+
+1 - Crie um diretório de nome unix_tests_search e baixe um arquivo com os nomes de todos os países do mundo usando o curl;
+
+2 - Mostre todo o conteúdo do arquivo Countries na tela;
+
+3 - Mostre o conteúdo de countries.txt em paginação;
+
+4 - Busque por Zambia neste arquivo;
+
+5 - Busque por Brazil utilizando o lower case;
+
+6 - Crie um arquivo chamado phrases e adicione texto;
+
+7 - BUsque pelas frases que não tem a palavra fox
+
+8 - Quantidade de palavras no arquivo phrase.txt;
+
+9 - Quantidade de linhas no arquivo phrases.txt;
+
+10 - Criar os arquivos empty.tbt e empty.pdf;
+
+11 - Listar todos os arquivos do diretório unix_testes_search;
+
+12 - Listar todos os arquivos que terminem com .txt;
+
+13 - Listar todos os arquivos que terminem com tbt ou txt;
+
+14 - Acessar o manual do comando ls
+
+
+
+
+

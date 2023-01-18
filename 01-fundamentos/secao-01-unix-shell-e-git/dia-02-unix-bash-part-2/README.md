@@ -20,7 +20,7 @@ Exercícios de comandos de input e output
 
 10 - Criar um novo arquivo bunch_of_things.txt com os conteúdos de phrases.txt e countries.txt;
 
-11 - Ordenar o arquivo bunch_of_things;
+11 - Ordenar o arquivo bunch_of_things;<br>
 
 
 
@@ -36,7 +36,7 @@ Exercícios de permissões
 
 5 - Tirar a permissão de escrita do arquivo arquivo_teste.txt para todos os usuários e verificar com o comando ls -l;
 
-6 - Voltar as permissões padrão do arquivo arquivo_teste.txt para os usuários usando o comando chmod 644 arquivo_teste.txt;
+6 - Voltar as permissões padrão do arquivo arquivo_teste.txt para os usuários usando o comando chmod 644 arquivo_teste.txt;<br>
 
 
 

@@ -56,6 +56,6 @@ Exercícios de processos e jobs
 
 7 - Verificar se sleep 300 está executando com o comando jobs. Se sim suspender.
 
-8 - Retormar a eecução de sleep 100 em background com o comando bg;
+8 - Retomar a eecução de sleep 100 em background com o comando bg;
 
 9 - Terminar a execução de todos os processos sleep;

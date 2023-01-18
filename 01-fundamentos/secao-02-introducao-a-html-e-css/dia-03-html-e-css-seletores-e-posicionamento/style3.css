@@ -1,0 +1,19 @@
+/*tags h1 e p devem estar centralizados*/
+h1, p {
+    text-align: center;
+}
+
+/*cor de fundo da lista deve mudar ao passar o cursor*/
+li:hover {
+    background-color: pink;
+}
+
+/*cor da fonte mudar ao ser clicado*/
+li:active{
+    color: red;
+}
+
+/*adicione list-style: none para ambas as listas*/
+ol, ul {
+    list-style: none;
+}

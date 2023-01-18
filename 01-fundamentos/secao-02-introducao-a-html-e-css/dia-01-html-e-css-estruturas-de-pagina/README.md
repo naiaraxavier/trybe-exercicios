@@ -18,3 +18,8 @@ Link interno para a sua foto;
 Link externo para seu blog favorito que abra em uma nova aba;
 Textos destacados com negrito e/ou itálico;
 Índice com links internos para as diferentes seções do portfólio.
+
+
+Meu Potfólio:
+https://github.com/naiaraxavier/naiaraxavier.github.io
+https://naiaraxavier.github.io/

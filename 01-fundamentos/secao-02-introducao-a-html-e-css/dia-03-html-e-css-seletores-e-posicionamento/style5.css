@@ -1,0 +1,63 @@
+/*Fazer com que todos os itens da lista ordenada tenham uma cor de fundo amarela. Se o item for par, a cor da fonte deve ser verde. Se for ímpar, utilizzar text-transform para deixar o texto maiúsculo*/
+ol li{
+    background-color: yellow;
+}
+
+ol li:nth-child(odd){
+    text-transform: uppercase;
+}
+
+ol li:nth-child(even){
+    color: green;
+}
+
+
+/*fazer todas as header possuírem cor de fonte vermelha e se alguma estiver em itálico, aumentar seu tamnho para 40px e acrescentar uma borda de 1px sólida e preta*/
+h1, h2 {
+    color: red;
+}
+
+h1 em, h2 em, h3 em{
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+/*Fazer todas as li's terem 20px de tamanho de fonte e os que tiverem textos em itálico, ultilizar a propriedade font-weight para deixá-lo em negrito*/
+li {
+    font-size: 20px;
+}
+
+li em {
+    font-weight: bold;
+}
+
+/*Na lista de linguagens de programação, faça que as 3 primeira possuem cor de fonte azul e se alguma possuir java no texto, utilize cor de fundo rosa*/
+
+#linguagens li:not(:nth-child(n + 4)) {
+    color: blue;
+}
+
+.bg-pink{
+    background-color: pink;
+}
+
+/*para cada link da lista de alinhados da pessoa desenvolvedora, faça com que ao passar o mouse em cima, o texto fique em negrito e assuma a cor de fonte temática do site*/
+ #aliados li a:hover{
+    font-weight: bold;
+ }
+ 
+ #aliados li a[href*="stackoverflow"] {
+    color: orange;
+  }
+  #aliados li a[href*="w3schools"] {
+    color: green;
+  }
+  #aliados li a[href*="mozilla"] {
+    color: black;
+  }
+  #aliados li a[href*="devdocs"] {
+    color: yellow;
+  }
+  #aliados li a[href*="trybe"] {
+    color: green;
+  }

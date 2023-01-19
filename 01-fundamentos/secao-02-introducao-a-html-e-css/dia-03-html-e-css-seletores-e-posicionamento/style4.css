@@ -5,31 +5,31 @@ div:hover{
 
 /*Cada DIV deve ter uma cor*/
 div:nth-of-type(1){
-    background-color: blueviolet;
+    background-color: yellow;
 }
 
 div:nth-of-type(2){
-    background-color: antiquewhite;
+    background-color: green;
 }
 
 /*Fazer a terceira div ser maior que as outras*/
 div:nth-of-type(3){
-    background-color: aqua;
+    background-color: coral;
     height: 150px;
 }
 
 div:nth-of-type(4){
-    background-color: coral;
+    background-color: darkblue;
 }
 
 div:nth-of-type(5){
-    background-color: darkolivegreen;
+    background-color: beige;
 }
 
 /*Estilizar cada H3*/
 /*Deixar as h3 ímpares em itálico*/
 div:nth-of-type(1) > h3 {
-    color: aliceblue;
+    color: blue;
     font-style: italic;
 }
 

@@ -1,5 +1,5 @@
-// Utilizar if/else para retornar o maior de dois números
-// Definir duas constantes com os valores que serão comparados
+/* 1 - Utilizar if/else para retornar o maior de dois números
+Definir duas constantes com os valores que serão comparados*/
 
 const num1 = 10;
 const num2 = 8;
@@ -14,7 +14,7 @@ else {
   console.log("Os números são iguais");
 }
 
-//Utilize if/ else para escrever um código que retorne o maior de 3 números
+//2 - Utilize if/ else para escrever um código que retorne o maior de 3 números
 let a = 10;
 let b = 9;
 let c = 5;
@@ -27,22 +27,22 @@ if(a>b && a>c){
     console.log(c+" é maior que "+a+" e "+b);
 }
 
-//Utilize if/else para escrever um código que, dado um valor recebido, retorne positive se o valor for positivo
-// e negative se for negativo e caso não seje positivo nem negativo, retorne 0
+/* 3 - Utilize if/else para escrever um código que, dado um valor recebido, retorne positive se o valor for positivo
+e negative se for negativo e caso não seje positivo nem negativo, retorne 0 */
 
 let num = -8;
 
 if(num > 0){
-    console.log("Número positivo");
+    console.log("Positive");
 }else if (num < 0){
-    console.log("Número negativo");
+    console.log("Negative");
 }else {
-    console.log ("Número igual a 0");
+    console.log ("0");
 }
 
-//Ultilize if/else para escrever um código que defina 3 constantes com os valores dos 3 angulos internos
-// de um triângulo. Retorne true se os ângulos representarem os ângulos de um triângulo e false, caso contrário
-// Se algum ângulo for inválido, você deve retornar uma mensagem de erro.
+/*4 -Ultilize if/else para escrever um código que defina 3 constantes com os valores dos 3 angulos internos
+de um triângulo. Retorne true se os ângulos representarem os ângulos de um triângulo e false, caso contrário
+Se algum ângulo for inválido, você deve retornar uma mensagem de erro.*/
 
 const a1= -60;
 const a2= -80;
@@ -57,11 +57,10 @@ if(soma === 180 && soma > 0){
   console.log("Valor inválido");
 }
 
-//Utilizar Swich/case para retornar os movimentos das peças de xadrez, deve ser case sensitive
-// retornar um erro caso a peça for inválida
+/* 5 -Utilizar Swich/case para retornar os movimentos das peças de xadrez, não deve ser case sensitive
+retornar um erro caso a peça for inválida*/
 
 let pecaXadrez = 'Torre';
-//let casePecaXadrez = text.toLowerCase();
  switch (pecaXadrez.toLowerCase()){
   case "rei":
     console.log("Qualquer direção, uma casa por vez");
@@ -92,7 +91,7 @@ let pecaXadrez = 'Torre';
     break;
  }
 
-// Utilizar if/else para escrever um código que converta uma nota em porcentagem( 0 a 100) em conceitos de A a F
+// 6 - Utilizar if/else para escrever um código que converta uma nota em porcentagem( 0 a 100) em conceitos de A a F
 
 let notaPorcentagem = 150;
 

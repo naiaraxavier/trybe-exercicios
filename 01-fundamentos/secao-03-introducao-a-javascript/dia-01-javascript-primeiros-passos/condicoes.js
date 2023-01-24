@@ -1,7 +1,7 @@
 // Utilizar if/else para retornar o maior de dois números
 // Definir duas constantes com os valores que serão comparados
 
-/*const num1 = 10;
+const num1 = 10;
 const num2 = 8;
 
 if(num1 > num2){
@@ -12,7 +12,7 @@ else if (num1 < num2){
 }
 else {
   console.log("Os números são iguais");
-}*/
+}
 
 //Utilize if/ else para escrever um código que retorne o maior de 3 números
 let a = 10;
@@ -55,4 +55,59 @@ if(soma === 180 && soma > 0){
   console.log("Não é um triângulo");
 } else {
   console.log("Valor inválido");
+}
+
+//Utilizar Swich/case para retornar os movimentos das peças de xadrez, deve ser case sensitive
+// retornar um erro caso a peça for inválida
+
+let pecaXadrez = 'Torre';
+//let casePecaXadrez = text.toLowerCase();
+ switch (pecaXadrez.toLowerCase()){
+  case "rei":
+    console.log("Qualquer direção, uma casa por vez");
+  break;
+
+  case "dama":
+    console.log("Qualquer direção, quantas casas quiser");
+  break;
+
+  case "torre":
+    console.log("Move-se em linha reta, tanto na vertical, quanto na horizontal, quantas casas quiser");
+  break;
+
+  case "bispo":
+    console.log("Diagonal, quantas casas quiser");
+  break;
+
+  case "cavalo":
+    console.log("Movimento em L");
+  break;
+
+  case "peão":
+    console.log("Move uma casa para frente");
+  break;
+ 
+  default:
+    console.log("Peça inválida")
+    break;
+ }
+
+// Utilizar if/else para escrever um código que converta uma nota em porcentagem( 0 a 100) em conceitos de A a F
+
+let notaPorcentagem = 150;
+
+if(notaPorcentagem >= 90 && notaPorcentagem < 100){
+  console.log("Conceito A");
+} else if(notaPorcentagem >= 80 && notaPorcentagem < 100){
+  console.log("Conceito B");
+} else if(notaPorcentagem >= 70 && notaPorcentagem < 100){
+  console.log("Conceito C");
+} else if(notaPorcentagem >= 60 && notaPorcentagem < 100){
+  console.log("Conceito D");
+} else if(notaPorcentagem >= 50 && notaPorcentagem < 100){
+  console.log("Conceito E");
+} else if(notaPorcentagem < 50 && notaPorcentagem < 100 && notaPorcentagem > 0){
+  console.log("Conceito F");
+}  else if(notaPorcentagem < 0 || notaPorcentagem > 100){
+  console.log("Erro!");
 }

@@ -44,16 +44,21 @@ if(num > 0){
 de um triângulo. Retorne true se os ângulos representarem os ângulos de um triângulo e false, caso contrário
 Se algum ângulo for inválido, você deve retornar uma mensagem de erro.*/
 
-const a1= -60;
-const a2= -80;
+const a1= 60;
+const a2= 60;
 const a3= 60;
-let soma = a1 + a2 + a3;
+let soma = a1 + a2 + a3; //para saber se é um triangulo (180°)
+let angulosPositivos = a1 > 0 && a2 > 0 && a3 > 0; //Todos os angulos devem ser positivos
 
-if(soma === 180 && soma > 0){
-  console.log("É um triângulo");
-} else if (soma !== 180 && soma > 0){
-  console.log("Não é um triângulo");
-} else {
+if(angulosPositivos){
+  if(soma === 180){
+    console.log("É um triângulo");
+  }
+  else{
+    console.log("Não é um triângulo");
+  }
+}
+else {
   console.log("Valor inválido");
 }
 
@@ -93,20 +98,20 @@ let pecaXadrez = 'Torre';
 
 // 6 - Utilizar if/else para escrever um código que converta uma nota em porcentagem( 0 a 100) em conceitos de A a F
 
-let notaPorcentagem = 150;
+let notaPorcentagem = 50;
 
-if(notaPorcentagem >= 90 && notaPorcentagem < 100){
+if(notaPorcentagem < 0 || notaPorcentagem > 100) {
+  console.log("Erro, nota incorreta!");
+}else if(notaPorcentagem >= 90){
   console.log("Conceito A");
-} else if(notaPorcentagem >= 80 && notaPorcentagem < 100){
+} else if(notaPorcentagem >= 80){
   console.log("Conceito B");
-} else if(notaPorcentagem >= 70 && notaPorcentagem < 100){
+} else if(notaPorcentagem >= 70){
   console.log("Conceito C");
-} else if(notaPorcentagem >= 60 && notaPorcentagem < 100){
+} else if(notaPorcentagem >= 60){
   console.log("Conceito D");
-} else if(notaPorcentagem >= 50 && notaPorcentagem < 100){
+} else if(notaPorcentagem >= 50){
   console.log("Conceito E");
-} else if(notaPorcentagem < 50 && notaPorcentagem < 100 && notaPorcentagem > 0){
+} else {
   console.log("Conceito F");
-}  else if(notaPorcentagem < 0 || notaPorcentagem > 100){
-  console.log("Erro!");
 }

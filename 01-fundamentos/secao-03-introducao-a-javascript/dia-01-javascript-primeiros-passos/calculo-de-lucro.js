@@ -4,7 +4,7 @@ const valorCusto = 8;
 const valorVenda = 15;
 
 
-if(valorCusto > 0 && valorVenda > 0){
+if(valorCusto >= 0 && valorVenda >= 0){
   const impostoSobreCusto = valorCusto * 0.2;
   const valorCustoTotal = valorCusto + impostoSobreCusto;
   const lucro = (valorVenda - valorCustoTotal) * 1000;

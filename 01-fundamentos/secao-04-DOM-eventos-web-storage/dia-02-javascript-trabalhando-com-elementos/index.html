@@ -90,16 +90,40 @@
       createMainContent.appendChild(createSectionRight);
 
     //7 - Adicione uma imagem com src configurado para o valor https://picsum.photos/200 e classe small-image. Esse elemento deve ser filho do section criado no passo 5;
-    const createImg = document.createElement('img');
-    createImg.src = 'https://picsum.photos/200';
-    createImg.className = 'small-image';
-    createSectionLeft.appendChild(createImg);
+      const createImg = document.createElement('img');
+      createImg.src = 'https://picsum.photos/200';
+      createImg.className = 'small-image';
+      createSectionLeft.appendChild(createImg);
 
     // 8 - Adicione uma lista não ordenada com os valores de 1 a 10 por extenso, ou seja, um, dois, três, … como valores da lista. Essa lista deve ser filha do section criado no passo 6;
+
     const createList = document.createElement('ul');
+    createSectionRight.appendChild(createList);
+
+    const arrayNumbers = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove', 'Dez'];
+
+    for (let i = 0; i < arrayNumbers.length; i++) {
+      const addLi = document.createElement('li');
+      addLi.innerHTML = arrayNumbers[i];
+      createList.appendChild(addLi);
+    }
 
     // 9 - Adicione 3 tags h3, todas sendo filhas do main criado no passo 2. 
 
+    for (let i = 0; i < 3; i++) {
+      const h3 = document.createElement('h3');
+      h3.innerHTML = 'teste';
+      h3.className = 'description';
+      createMainContent.appendChild(h3);
+    }
+
+    //10 - Adicione a classe title na tag h1 criada;
+    novoH1.className = 'title';
+
+    //11 - Adicione a classe description nas 3 tags h3 criadas;
+    //Feito no passo 9
+
+    //12 - Remova a section criada no passo 5 (aquele que possui a classe left-content). Utilize a função .removeChild();
 
     </script>
   </body>

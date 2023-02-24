@@ -1,0 +1,96 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Tela pequena */
+@media (min-width:600px) {
+header {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+header p {
+  color: white;
+  font-size: 1.2em;
+}
+
+header nav {
+  display: none;
+}
+
+section {
+  display: flex;
+  flex-direction: ;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0 20px;
+}
+
+.aside-one {
+  text-align: left;
+  background-color:beige;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.aside-one h2{
+  text-align: center;
+}
+
+.aside-one ul {
+  list-style: none;
+  padding: 0;
+}
+
+.aside-one ul li{
+  margin: 0;
+}
+
+.aside-two {
+  background-color:beige;
+  height: 50%;
+  border-radius: 20px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  padding: 50px;
+  background-color:cornsilk;
+}
+
+.main-content h1 {
+  text-align: center;
+  font-size: 1.7em;
+}
+
+.main-content p {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+footer h3{
+  text-align: center;
+  font-size: 0.9em;
+  margin: 0;
+}
+
+footer p{
+  text-align: center;
+  font-size: 0.6em;
+  margin: 0;
+}
+
+}

@@ -1,0 +1,15 @@
+{
+  "name": "dia-02-primeiros-passos-em-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "exercicio-1.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.4.0"
+  }
+}

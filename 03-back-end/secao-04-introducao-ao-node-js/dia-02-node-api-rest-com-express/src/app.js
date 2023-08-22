@@ -31,7 +31,7 @@ app.get('/movies/:id', async (req, res) => {
   try {
     if (req.params.id > 7) throw new Error('ID must be less than or equal to 7');
     const movies = await readFile();
-    const movie = movies.find(({ id }) => id === Number(req.params.id));
+    const movie = movies;
     res.json(movie);
   } catch (err) {
     res.status(500).send({ message: err.message });

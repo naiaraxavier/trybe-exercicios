@@ -1,0 +1,6 @@
+# imprime um quadrado de *
+
+
+def draw_square(n):
+    for row in range(n):
+        print(n * "*")
